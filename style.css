@@ -1,0 +1,367 @@
+/* ============================================================
+   MA BIBLE DES MOTS — CRPE 2027
+   Thème noir & or — minimaliste, confort visuel maximal
+   ============================================================ */
+
+/* --- Variables --- */
+:root {
+  --bg-page:        #0d0d0d;
+  --bg-card:        #1a1a1a;
+  --bg-card-hover:  #252525;
+  --bg-header:      #111111;
+  --accent:         #e2b96f;
+  --accent-soft:    #c8973f;
+  --success:        #4caf82;
+  --success-soft:   #1e3d2f;
+  --text-primary:   #f0f0f0;
+  --text-secondary: #999999;
+  --text-muted:     #555555;
+  --border:         #2a2a2a;
+  --border-soft:    #1f1f1f;
+  --progress-track: #2a2a2a;
+  --radius:         10px;
+  --radius-sm:      6px;
+  --font-main:      'Segoe UI', system-ui, sans-serif;
+}
+
+/* --- Reset --- */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* --- Base --- */
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg-page);
+  color: var(--text-primary);
+  font-family: var(--font-main);
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+/* ============================================================
+   HEADER
+   ============================================================ */
+header {
+  background-color: var(--bg-header);
+  border-bottom: 2px solid var(--accent);
+  padding: 2rem 1.5rem 1.5rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header-inner {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--accent);
+  letter-spacing: 0.02em;
+}
+
+.subtitle {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  margin-top: 0.2rem;
+  margin-bottom: 1rem;
+}
+
+/* Barre de progression */
+.progress-bar-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.progress-bar-track {
+  flex: 1;
+  height: 8px;
+  background-color: var(--progress-track);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg, var(--accent-soft), var(--accent));
+  border-radius: 999px;
+  transition: width 0.6s ease;
+}
+
+.progress-label {
+  font-size: 0.85rem;
+  color: var(--accent);
+  font-weight: 600;
+  white-space: nowrap;
+  min-width: 80px;
+  text-align: right;
+}
+
+/* ============================================================
+   STATS BAR
+   ============================================================ */
+.stats-bar {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  max-width: 900px;
+  margin: 1.5rem auto 0;
+  padding: 0 1.5rem;
+}
+
+.stat {
+  flex: 1;
+  min-width: 120px;
+  background-color: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1rem;
+  text-align: center;
+}
+
+.stat-number {
+  display: block;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--accent);
+  line-height: 1.2;
+}
+
+.stat-label {
+  display: block;
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+  margin-top: 0.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* ============================================================
+   FILTRES
+   ============================================================ */
+.filters {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  max-width: 900px;
+  margin: 1.25rem auto 0;
+  padding: 0 1.5rem;
+}
+
+.filters input,
+.filters select {
+  flex: 1;
+  min-width: 160px;
+  background-color: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  color: var(--text-primary);
+  font-size: 0.9rem;
+  padding: 0.6rem 0.9rem;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.filters input:focus,
+.filters select:focus {
+  border-color: var(--accent);
+}
+
+.filters input::placeholder {
+  color: var(--text-muted);
+}
+
+.filters select option {
+  background-color: var(--bg-card);
+  color: var(--text-primary);
+}
+
+/* ============================================================
+   CONTENU PRINCIPAL
+   ============================================================ */
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+/* ============================================================
+   CATÉGORIES
+   ============================================================ */
+.categorie-bloc {
+  margin-top: 2rem;
+}
+
+.categorie-titre {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+/* ============================================================
+   SOUS-CATÉGORIES
+   ============================================================ */
+.sous-categorie-bloc {
+  margin-bottom: 1.25rem;
+}
+
+.sous-categorie-titre {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 0.6rem;
+  padding-left: 0.25rem;
+}
+
+/* ============================================================
+   GRILLE DES MOTS
+   ============================================================ */
+.mots-grille {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+/* ============================================================
+   MOT — CARTE
+   ============================================================ */
+.mot-carte {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 0.45rem 0.75rem;
+  cursor: pointer;
+  transition: background-color 0.15s, border-color 0.15s;
+  user-select: none;
+}
+
+.mot-carte:hover {
+  background-color: var(--bg-card-hover);
+  border-color: var(--accent-soft);
+}
+
+.mot-carte.maitrise {
+  background-color: var(--success-soft);
+  border-color: var(--success);
+}
+
+.mot-carte.maitrise:hover {
+  background-color: #265040;
+}
+
+/* Checkbox visuelle */
+.mot-check {
+  width: 16px;
+  height: 16px;
+  border: 2px solid var(--text-muted);
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: border-color 0.15s, background-color 0.15s;
+}
+
+.mot-carte.maitrise .mot-check {
+  border-color: var(--success);
+  background-color: var(--success);
+}
+
+.mot-check::after {
+  content: '';
+  display: none;
+  width: 4px;
+  height: 8px;
+  border: 2px solid #fff;
+  border-top: none;
+  border-left: none;
+  transform: rotate(45deg) translateY(-1px);
+}
+
+.mot-carte.maitrise .mot-check::after {
+  display: block;
+}
+
+/* Texte du mot */
+.mot-texte {
+  font-size: 0.92rem;
+  color: var(--text-primary);
+  font-weight: 500;
+}
+
+.mot-carte.maitrise .mot-texte {
+  color: #a8e6c8;
+}
+
+/* ============================================================
+   FOOTER
+   ============================================================ */
+footer {
+  text-align: center;
+  padding: 2rem 1.5rem;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  border-top: 1px solid var(--border-soft);
+  margin-top: 3rem;
+}
+
+footer strong {
+  color: var(--accent);
+}
+
+/* ============================================================
+   MESSAGE VIDE
+   ============================================================ */
+.message-vide {
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  padding: 3rem 1rem;
+}
+
+/* ============================================================
+   RESPONSIVE
+   ============================================================ */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.4rem;
+  }
+
+  .stats-bar {
+    gap: 0.75rem;
+  }
+
+  .stat-number {
+    font-size: 1.4rem;
+  }
+
+  .filters {
+    flex-direction: column;
+  }
+
+  .filters input,
+  .filters select {
+    width: 100%;
+  }
+}

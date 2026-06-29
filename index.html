@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ma Bible des Mots — CRPE 2027</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="header-inner">
+      <h1>Ma Bible des Mots</h1>
+      <p class="subtitle">CRPE 2027 — Bil</p>
+      <div class="progress-bar-wrapper">
+        <div class="progress-bar-track">
+          <div class="progress-bar-fill" id="progressFill"></div>
+        </div>
+        <span class="progress-label" id="progressLabel">Chargement...</span>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="stats-bar">
+      <div class="stat">
+        <span class="stat-number" id="statTotal">—</span>
+        <span class="stat-label">mots au total</span>
+      </div>
+      <div class="stat">
+        <span class="stat-number" id="statMaitrise">—</span>
+        <span class="stat-label">maîtrisés</span>
+      </div>
+      <div class="stat">
+        <span class="stat-number" id="statRestant">—</span>
+        <span class="stat-label">restants</span>
+      </div>
+      <div class="stat">
+        <span class="stat-number" id="statPourcent">—</span>
+        <span class="stat-label">de l'objectif</span>
+      </div>
+    </section>
+
+    <section class="filters">
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="Rechercher un mot..."
+        autocomplete="off"
+      />
+      <select id="filterCategorie">
+        <option value="">Toutes les catégories</option>
+      </select>
+      <select id="filterStatut">
+        <option value="">Tous les statuts</option>
+        <option value="maitrise">Maîtrisés uniquement</option>
+        <option value="non_maitrise">Non maîtrisés uniquement</option>
+      </select>
+    </section>
+
+    <div id="categoriesContainer">
+      <!-- Les catégories et mots sont injectés ici par script.js -->
+    </div>
+
+  </main>
+
+  <footer>
+    <p>Objectif : <strong>10 000 mots</strong> maîtrisés avant avril 2027</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>

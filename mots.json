@@ -53,7 +53,11 @@
   { "mot": "cela",        "categorie": "Pronoms", "sous_categorie": "Démonstratifs" },
   { "mot": "ça",          "categorie": "Pronoms", "sous_categorie": "Démonstratifs" },
   { "mot": "ce",          "categorie": "Pronoms", "sous_categorie": "Démonstratifs" },
-
+  { "mot": "ceux-ci",     "categorie": "Pronoms", "sous_categorie": "Démonstratifs" },
+  { "mot": "ceux-là",     "categorie": "Pronoms", "sous_categorie": "Démonstratifs" },
+  { "mot": "celles-ci",   "categorie": "Pronoms", "sous_categorie": "Démonstratifs" },
+  { "mot": "celles-là",   "categorie": "Pronoms", "sous_categorie": "Démonstratifs" },
+  
   { "mot": "qui",         "categorie": "Pronoms", "sous_categorie": "Relatifs" },
   { "mot": "que",         "categorie": "Pronoms", "sous_categorie": "Relatifs" },
   { "mot": "quoi",        "categorie": "Pronoms", "sous_categorie": "Relatifs" },

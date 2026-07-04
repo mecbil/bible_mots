@@ -10,11 +10,18 @@ Trois à cinq lignes maximum. Le détail complet reste dans `GEOMETRIE_CARTE_PRO
 
 ---
 
+Résumé de la séance
+
+Chapitre 1 — Droites & positions relatives, découpé en 9 briques
+On a arrêté d'inventer des exercices : notre document-ancre est maintenant une vraie annale CRPE réelle (PariMaths CRPE 2010-2011, sourcée Lyon 97/Orléans 2003/Besançon 2003) — le lien maths-pdf.fr (images non lisibles) est abandonné pour ce chapitre
+Nouveau protocole validé (tes 4 points) : je ramène l'exercice avec ses vraies questions ; si une question originale correspond à la brique en cours → "réponds à la question X" ; sinon → j'ajoute une question brique séparée sur les mêmes données
+Brique 1 (droite/demi-droite/segment + notation) : fermée, en bonne voie — testée sans faute sur les questions 1, 4, 7, 8, 9 du document
+Brique 2 (parallèles) : démarrée à l'instant, sur la question 2 (construction de d' // (AB)) — tu viens de donner la notation //, en attente de confirmation complète avant de continuer le balayage
+
 Chapitre en cours : Chapitre 1 — Droites & positions relatives
-Brique en cours : Brique 2 — Droites parallèles (notation //)
-Dernière brique maîtrisée : Brique 1 — droite/demi-droite/segment + notation (testée sur Q1,4,7,8,9 — bonne voie)
-Document-ancre : PariMaths CRPE 2010-2011 (bases-de-geometrie-plane-exercices-crpe.pdf)
-Prochaine étape : confirmer (d')//(AB), poursuivre balayage brique 2 sur les questions du document
+Brique en cours : Brique 4 — Droites sécantes / point d'intersection
+Dernière brique validée : Brique 3 — Droites perpendiculaires
+Prochaine étape : Brique 4 niveau 1
 
 ---
 

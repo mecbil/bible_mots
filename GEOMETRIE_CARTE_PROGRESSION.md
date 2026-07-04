@@ -1,6 +1,6 @@
 # GÉOMÉTRIE — CARTE DE PROGRESSION
-## CRPE 2027 — Bil — Méthode brique
-Fichier vivant — créé le 02/07/2026
+## CRPE 2027 — Bil — Nouvelle méthode niveau 1 / niveau 2
+Fichier vivant — créé le 02/07/2026 — mis à jour le 04/07/2026
 
 ---
 
@@ -9,8 +9,8 @@ Fichier vivant — créé le 02/07/2026
 La géométrie n'est pas UN chapitre. C'est **10 chapitres indépendants**, qui portent tous le nom "Géométrie" en préfixe, mais qui se travaillent, se valident et se maîtrisent chacun séparément.
 
 Chaque chapitre a :
-- **Un fichier "banque d'exercices"** (≈30, crescendo : faciles → moyens → costauds type annales) — gardé sur ton PC, hébergé en HTML/GitHub quand prêt
-- **Un fichier "liste de questions" (briques)** — les questions générales du chapitre, celles qu'on martèle sur TOUS les exercices qu'elles soient posées ou non, ordonnées selon la logique du cours
+- **Un fichier "banque d'exercices"** (vrais exercices : CRPE annales > brevet > collège)
+- **Un fichier "liste de briques"** — les micro-compétences du chapitre, ordonnées selon la logique du cours
 - **Un statut de progression** dans le tableau ci-dessous
 
 **Objectif sur chaque chapitre : maîtrise à 100%. Pas d'effleurement.**
@@ -19,64 +19,76 @@ Chaque chapitre a :
 
 ## ORDRE DE TRAVAIL PROPOSÉ
 
-L'ordre suit la dépendance logique : on ne peut pas maîtriser Pythagore ou Thalès sans être solide sur triangles et angles ; on ne peut pas être à l'aise en Espace sans les formules d'aires vues avant.
-
-| # | Chapitre | Dépend de | Estimation briques | Estimation exercices |
-|---|---|---|---|---|
-| 1 | Géométrie — Droites & positions relatives | — | 8-10 | 30 |
-| 2 | Géométrie — Angles | 1 | 10-12 | 30 |
-| 3 | Géométrie — Triangles | 1, 2 | 12-14 | 30 |
-| 4 | Géométrie — Pythagore | 3 | 7-8 | 30 |
-| 5 | Géométrie — Thalès | 3 | 6-7 | 30 |
-| 6 | Géométrie — Quadrilatères | 1, 2, 3 | 18-20 | 30 |
-| 7 | Géométrie — Cercle | 2, 3 | 8-10 | 30 |
-| 8 | Géométrie — Trigonométrie | 3, 4 | 9-10 | 30 |
-| 9 | Géométrie — Transformations | 1, 2, 3 | 10-12 | 30 |
-| 10 | Géométrie — Espace (solides) | 6, 7 | 18-20 | 30 |
-
-*(Estimations de départ — le vrai nombre sort quand on construit la liste, jamais forcé pour "faire rond".)*
+| # | Chapitre | Dépend de | Briques estimées |
+|---|---|---|---|
+| 1 | Droites & positions relatives | — | 9 |
+| 2 | Angles | 1 | ~7 |
+| 3 | Triangles | 1, 2 | ~8 |
+| 4 | Pythagore | 3 | ~6 |
+| 5 | Thalès | 3 | ~6 |
+| 6 | Quadrilatères | 1, 2, 3 | ~8 |
+| 7 | Cercle | 2, 3 | ~7 |
+| 8 | Trigonométrie | 3, 4 | ~6 |
+| 9 | Transformations | 1, 2, 3 | ~8 |
+| 10 | Espace (solides) | 6, 7 | ~9 |
 
 ---
 
 ## STATUT ACTUEL
 
-| # | Chapitre | Statut | Brique en cours | Avancement exercices |
-|---|---|---|---|---|
-| 1 | Droites & positions relatives | Pas commencé | — | — |
-| 2 | Angles | Pas commencé | — | — |
-| 3 | Triangles | Pas commencé | — | — |
-| 4 | Pythagore | Pas commencé | — | — |
-| 5 | Thalès | Pas commencé | — | — |
-| 6 | Quadrilatères | Pas commencé | — | — |
-| 7 | Cercle | Pas commencé | — | — |
-| 8 | Trigonométrie | Pas commencé | — | — |
-| 9 | Transformations | Pas commencé | — | — |
-| 10 | Espace (solides) | Pas commencé | — | — |
-
-### Statuts possibles
-- **Pas commencé**
-- **Briques en cours** (phase 1 — méthode brique, balayage systématique)
-- **Briques terminées, exercices normaux en cours** (phase 2 — si temps disponible)
-- **Maîtrisé** (100% — plus aucun doute)
+| # | Chapitre | Statut | Brique en cours |
+|---|---|---|---|
+| 1 | Droites & positions relatives | En cours | Brique 4 |
+| 2 | Angles | Pas commencé | — |
+| 3 | Triangles | Pas commencé | — |
+| 4 | Pythagore | Pas commencé | — |
+| 5 | Thalès | Pas commencé | — |
+| 6 | Quadrilatères | Pas commencé | — |
+| 7 | Cercle | Pas commencé | — |
+| 8 | Trigonométrie | Pas commencé | — |
+| 9 | Transformations | Pas commencé | — |
+| 10 | Espace (solides) | Pas commencé | — |
 
 ---
 
-## RAPPEL MÉTHODE (phase 1 — méthode brique)
+## MÉTHODE DE TRAVAIL (acté le 04/07/2026)
 
-1. On choisit UNE brique (une question générale du chapitre)
-2. Bil donne l'exercice 1 de sa banque → répond UNIQUEMENT sur cette brique, que l'exercice la demande ou non
-3. On passe à l'exercice 2, même brique — jusqu'à l'exercice 30
-4. On revient à l'exercice 1 avec la brique suivante
-5. Un exercice est "fini" quand toutes ses questions propres ont fini par être couvertes au fil des passages
-6. Chapitre maîtrisé quand toutes les briques sont passées sans erreur sur l'ensemble de la banque
+Pour chaque brique, deux niveaux :
+
+**Niveau 1 — exercices inventés par Claude**
+- Objectif double : apprendre ou rappeler la notion + ancrer le vocabulaire et la notation française des maths
+- On s'arrête quand c'est acquis — soit Bil le dit, soit Claude le voit
+- Exercices courts, ciblés, jamais plus d'une notion à la fois
+
+**Niveau 2 — vrais exercices uniquement**
+- Par ordre de préférence : CRPE annale > brevet > collège (6e → 3e selon la notion)
+- On ne prend que la partie pertinente pour la brique en cours
+- Jamais d'exercice inventé à ce niveau
+
+**Règle fondamentale : on valide les deux niveaux d'une brique avant de passer à la suivante.**
+
+---
+
+## BRIQUES CHAPITRE 1 — DROITES & POSITIONS RELATIVES
+
+| # | Brique | Statut |
+|---|---|---|
+| 1 | Droite / demi-droite / segment + notation | ✅ Validée |
+| 2 | Droites parallèles — notation // | ✅ Validée |
+| 3 | Droites perpendiculaires — notation ⊥ | ✅ Validée |
+| 4 | Droites sécantes — point d'intersection | 🔄 En cours |
+| 5 | Médiatrice d'un segment | Pas commencé |
+| 6 | Bissectrice d'un angle | Pas commencé |
+| 7 | Distance d'un point à une droite | Pas commencé |
+| 8 | Propriété transversale (2 ⊥ à une même droite → //) | Pas commencé |
+| 9 | Rédaction / justification | Pas commencé |
 
 ---
 
 ## À CHAQUE SESSION
 
-Bil dit : *"On travaille la géométrie, on en était à [chapitre X], brique [Y]."*
-Claude relit ce fichier, situe où on en est, et enchaîne directement.
+Claude relit ce fichier en premier, situe où on en est, et enchaîne directement.
 
 ---
 
-*Fichier à mettre à jour à chaque fin de session sur ce chapitre : statut, brique en cours, avancement.*
+*Fichier à mettre à jour à chaque fin de session.*

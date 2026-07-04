@@ -11,9 +11,10 @@ Trois à cinq lignes maximum. Le détail complet reste dans `GEOMETRIE_CARTE_PRO
 ---
 
 Chapitre en cours : Chapitre 1 — Droites & positions relatives
-Brique en cours : —
-Dernière brique maîtrisée : —
-Prochaine étape : commencer la brique 1 (distinguer droite / demi-droite / segment) sur l'exercice n°1
+Brique en cours : Brique 2 — Droites parallèles (notation //)
+Dernière brique maîtrisée : Brique 1 — droite/demi-droite/segment + notation (testée sur Q1,4,7,8,9 — bonne voie)
+Document-ancre : PariMaths CRPE 2010-2011 (bases-de-geometrie-plane-exercices-crpe.pdf)
+Prochaine étape : confirmer (d')//(AB), poursuivre balayage brique 2 sur les questions du document
 
 ---
 

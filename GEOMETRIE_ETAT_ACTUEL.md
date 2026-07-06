@@ -18,10 +18,13 @@ Nouveau protocole validé (tes 4 points) : je ramène l'exercice avec ses vraies
 Brique 1 (droite/demi-droite/segment + notation) : fermée, en bonne voie — testée sans faute sur les questions 1, 4, 7, 8, 9 du document
 Brique 2 (parallèles) : démarrée à l'instant, sur la question 2 (construction de d' // (AB)) — tu viens de donner la notation //, en attente de confirmation complète avant de continuer le balayage
 
-Chapitre en cours : Chapitre 1 — Droites & positions relatives
-Brique en cours : Brique 5
-Dernière brique validée : Brique 4 (droites sécantes / point d'intersection) ✅
-Prochaine étape : Brique 5 — Niveau 1
+# GÉOMÉTRIE — ÉTAT ACTUEL
+Dernière mise à jour : 06/07/2026
+
+Chapitre en cours : Chapitre 2 (à démarrer)
+Dernière brique validée : Brique 9 — Rédaction démonstration
+Chapitre 1 — Droites & positions relatives : TERMINÉ (9/9 briques validées)
+Prochaine étape : démarrer le Chapitre 2
 
 ---
 

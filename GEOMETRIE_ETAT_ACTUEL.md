@@ -19,9 +19,9 @@ Brique 1 (droite/demi-droite/segment + notation) : fermée, en bonne voie — te
 Brique 2 (parallèles) : démarrée à l'instant, sur la question 2 (construction de d' // (AB)) — tu viens de donner la notation //, en attente de confirmation complète avant de continuer le balayage
 
 Chapitre en cours : Chapitre 1 — Droites & positions relatives
-Brique en cours : Brique 4 — Droites sécantes / point d'intersection
-Dernière brique validée : Brique 3 — Droites perpendiculaires
-Prochaine étape : Brique 4 niveau 1
+Brique en cours : Brique 5
+Dernière brique validée : Brique 4 (droites sécantes / point d'intersection) ✅
+Prochaine étape : Brique 5 — Niveau 1
 
 ---
 

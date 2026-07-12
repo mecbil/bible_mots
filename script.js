@@ -4,16 +4,16 @@
    ============================================================ */
 
 /* --- Configuration --- */
-const OBJECTIF_TOTAL = 10000;
+const OBJECTIF_TOTAL  = 10000;
 const FICHIER_MOTS    = 'mots.json';
 const FICHIER_MAITRISE = 'maitrise.json';
 
 /* --- État global --- */
-let tousLesMots   = [];   // données brutes de mots.json
-let maitrise      = {};   // { "mot": true/false, ... } depuis maitrise.json
-let filtreTexte   = '';
+let tousLesMots     = [];   // uniquement les vrais mots (sans headers)
+let maitrise        = {};   // { "mot": true/false, ... }
+let filtreTexte     = '';
 let filtreCategorie = '';
-let filtreStatut  = '';
+let filtreStatut    = '';
 
 /* ============================================================
    INITIALISATION
@@ -32,7 +32,12 @@ async function chargerDonnees() {
   try {
     const resMots = await fetch(FICHIER_MOTS);
     if (!resMots.ok) throw new Error('mots.json introuvable');
-    tousLesMots = await resMots.json();
+    const brut = await resMots.json();
+
+    // ✅ On ignore les entrées "header" (type: categorie / sous_categorie)
+    // On garde uniquement les entrées qui ont un champ "mot"
+    tousLesMots = brut.filter(entry => entry.mot !== undefined && entry.mot !== null);
+
   } catch (e) {
     console.error('Erreur chargement mots.json :', e);
     tousLesMots = [];
@@ -85,13 +90,13 @@ function calculerStats() {
 function mettreAJourStats() {
   const { total, maitrisés, restants, pourcent } = calculerStats();
 
-  document.getElementById('statTotal').textContent     = total.toLocaleString('fr-FR');
-  document.getElementById('statMaitrise').textContent  = maitrisés.toLocaleString('fr-FR');
-  document.getElementById('statRestant').textContent   = restants.toLocaleString('fr-FR');
-  document.getElementById('statPourcent').textContent  = pourcent + '%';
+  document.getElementById('statTotal').textContent    = total.toLocaleString('fr-FR');
+  document.getElementById('statMaitrise').textContent = maitrisés.toLocaleString('fr-FR');
+  document.getElementById('statRestant').textContent  = restants.toLocaleString('fr-FR');
+  document.getElementById('statPourcent').textContent = pourcent + '%';
 
   document.getElementById('progressFill').style.width  = Math.min(pourcent, 100) + '%';
-  document.getElementById('progressLabel').textContent  = maitrisés + ' / ' + OBJECTIF_TOTAL.toLocaleString('fr-FR');
+  document.getElementById('progressLabel').textContent = maitrisés + ' / ' + OBJECTIF_TOTAL.toLocaleString('fr-FR');
 }
 
 /* ============================================================
@@ -99,6 +104,7 @@ function mettreAJourStats() {
    ============================================================ */
 function construireFiltreCategories() {
   const select = document.getElementById('filterCategorie');
+  // ✅ tousLesMots ne contient déjà que de vrais mots — pas de risque de pollution
   const categories = [...new Set(tousLesMots.map(m => m.categorie))].sort();
   categories.forEach(cat => {
     const option = document.createElement('option');

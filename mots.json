@@ -3002,6 +3002,7 @@
 {"mot": "équivalence", "categorie": "Vocabulaire disciplinaire", "sous_categorie": "Mathématiques"},
 {"mot": "facteur", "categorie": "Vocabulaire disciplinaire", "sous_categorie": "Mathématiques"},
 {"mot": "sous-ensemble", "categorie": "Vocabulaire disciplinaire", "sous_categorie": "Mathématiques"},
+{"mot": "commun", "categorie": "Vocabulaire disciplinaire", "sous_categorie": "Mathématiques"},
 
 {"type": "sous_categorie", "label": "Sciences & Technologie"},
 {"mot": "expérience", "categorie": "Vocabulaire disciplinaire", "sous_categorie": "Sciences & Technologie"},

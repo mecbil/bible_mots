@@ -2950,6 +2950,19 @@
 {"mot": "témoignage", "categorie": "Vocabulaire disciplinaire", "sous_categorie": "Histoire-Géographie"},
 {"mot": "patrimoine", "categorie": "Vocabulaire disciplinaire", "sous_categorie": "Histoire-Géographie"},
 
+{"mot": "sur / sûr", "categorie": "Homophones", "sous_categorie": "Orthographe"},
+{"mot": "ou / où", "categorie": "Homophones", "sous_categorie": "Orthographe"},
+{"mot": "a / à", "categorie": "Homophones", "sous_categorie": "Orthographe"},
+{"mot": "son / sont", "categorie": "Homophones", "sous_categorie": "Orthographe"},
+{"mot": "on / ont", "categorie": "Homophones", "sous_categorie": "Orthographe"},
+{"mot": "ce / se", "categorie": "Homophones", "sous_categorie": "Orthographe"},
+{"mot": "la / là / l'a", "categorie": "Homophones", "sous_categorie": "Orthographe"},
+{"mot": "mes / mais", "categorie": "Homophones", "sous_categorie": "Orthographe"},
+{"mot": "quand / quant", "categorie": "Homophones", "sous_categorie": "Orthographe"},
+{"mot": "guerre / guère", "categorie": "Homophones", "sous_categorie": "Orthographe"},
+{"mot": "conte / compte", "categorie": "Homophones", "sous_categorie": "Orthographe"},
+{"mot": "leur / leurs", "categorie": "Homophones", "sous_categorie": "Orthographe"}
+
 {"type": "sous_categorie", "label": "Mathématiques"},
 {"mot": "nombre entier", "categorie": "Vocabulaire disciplinaire", "sous_categorie": "Mathématiques"},
 {"mot": "nombre décimal", "categorie": "Vocabulaire disciplinaire", "sous_categorie": "Mathématiques"},

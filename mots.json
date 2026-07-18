@@ -2961,7 +2961,7 @@
 {"mot": "quand / quant", "categorie": "Homophones", "sous_categorie": "Orthographe"},
 {"mot": "guerre / guère", "categorie": "Homophones", "sous_categorie": "Orthographe"},
 {"mot": "conte / compte", "categorie": "Homophones", "sous_categorie": "Orthographe"},
-{"mot": "leur / leurs", "categorie": "Homophones", "sous_categorie": "Orthographe"}
+{"mot": "leur / leurs", "categorie": "Homophones", "sous_categorie": "Orthographe"},
 
 {"type": "sous_categorie", "label": "Mathématiques"},
 {"mot": "nombre entier", "categorie": "Vocabulaire disciplinaire", "sous_categorie": "Mathématiques"},

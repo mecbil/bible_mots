@@ -2949,6 +2949,9 @@
 {"mot": "document", "categorie": "Vocabulaire disciplinaire", "sous_categorie": "Histoire-Géographie"},
 {"mot": "témoignage", "categorie": "Vocabulaire disciplinaire", "sous_categorie": "Histoire-Géographie"},
 {"mot": "patrimoine", "categorie": "Vocabulaire disciplinaire", "sous_categorie": "Histoire-Géographie"},
+{"mot": "perception", "categorie": "Vocabulaire disciplinaire", "sous_categorie": "Grammaire"},
+{"mot": "auxiliaire", "categorie": "Vocabulaire disciplinaire", "sous_categorie": "Grammaire"},
+{"mot": "invariable", "categorie": "Vocabulaire disciplinaire", "sous_categorie": "Grammaire"},
 
 {"mot": "sur / sûr", "categorie": "Homophones", "sous_categorie": "Orthographe"},
 {"mot": "ou / où", "categorie": "Homophones", "sous_categorie": "Orthographe"},

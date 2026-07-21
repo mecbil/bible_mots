@@ -1017,6 +1017,7 @@
 {"type": "sous_categorie", "label": "Abstrait & logique"},
 {"mot": "ubiquité", "categorie": "Noms communs", "sous_categorie": "Abstrait & logique"},
 {"mot": "résurgence", "categorie": "Noms communs", "sous_categorie": "Abstrait & logique"},
+{"mot": "courage", "categorie": "Noms communs", "sous_categorie": "Qualités & valeurs"},
 
 {"type": "sous_categorie", "label": "Communication & expression"},
 {"mot": "allocution", "categorie": "Noms communs", "sous_categorie": "Communication & expression"},
